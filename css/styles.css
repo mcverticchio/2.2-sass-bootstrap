@@ -5829,7 +5829,8 @@ body:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1; }
 
 /*SOCIAL MEDIA */
 div.social-media {
@@ -5876,7 +5877,6 @@ li.contact {
 
 /*SECTION 3 STYLING */
 div.section-3 {
-  position: relative;
   background: url("../images/top-image.png") no-repeat center -100px;
   background-size: cover;
   border: 5px solid #FFF;
@@ -5930,36 +5930,46 @@ div.section-4 {
 /* SECTION 5 STYLING- the-skateboarders */
 div.the-skateboarders {
   position: relative;
-  margin-top: 20px; }
-  div.the-skateboarders .arrow {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  vertical-align: middle;
+  text-align: center; }
+  div.the-skateboarders .SB {
     text-transform: uppercase;
     color: #FFF;
     position: absolute;
     down: 30px;
-    background: #B2382D;
-    height: 50px;
-    text-align: center;
-    vertical-align: middle; }
-  div.the-skateboarders .SB-1 {
-    background: url("..images/sk8er-1.png");
-    height: 100px;
-    border: 5px solid #FFF; }
-  div.the-skateboarders .SB-2 {
-    background: url("..images/sk8er-2.png");
+    background: #B2382D; }
+  div.the-skateboarders .SB1 {
+    background: url("../images/sk8er-4.png") no-repeat;
+    background-position: 100%;
     border: 5px solid #FFF;
-    height: 100px; }
-  div.the-skateboarders .SB-3 {
-    background: url("..images/sk8er-3.png");
+    padding-top: 150px;
+    margin-bottom: 10px;
+    color: #FFF; }
+  div.the-skateboarders .SB2 {
+    background: url("../images/sk8er-3.png") no-repeat;
+    background-size: 100%;
     border: 5px solid #FFF;
-    height: 100px; }
-  div.the-skateboarders .SB-4 {
-    background: url("..images/sk8er-4.png");
+    padding-top: 150px;
+    margin-bottom: 10px;
+    color: #FFF; }
+  div.the-skateboarders .SB3 {
+    background: url("../images/sk8er-1.png") no-repeat;
+    background-size: 100%;
     border: 5px solid #FFF;
-    height: 200px; }
+    padding: 100px;
+    color: #FFF; }
+  div.the-skateboarders .SB4 {
+    background: url("../images/sk8er-2.png") no-repeat 100%;
+    border: 5px solid #FFF;
+    color: #FFF;
+    padding-top: 412px; }
 
 /* STYLING FOR SECTION 6 */
 div.section-6 {
-  position: inline;
   background: #FFF;
   margin-left: 50px;
   padding: 12px;
@@ -5972,25 +5982,27 @@ div.section-6 {
 
 /* SECTION 7 STYLING */
 div.section-7 {
-  background: #FFF; }
+  background: #FFF;
+  margin-top: 20px; }
   div.section-7 a {
     color: #C1C1C1;
     font-size: 30px; }
+  div.section-7 .fb-L i {
+    padding: 5px 10px;
+    background: #4F4F4F; }
+  div.section-7 .wifi-L i {
+    padding: 5px;
+    background: #AEAEAE; }
+  div.section-7 .twitter-L i {
+    padding: 5px;
+    background: #7B7B7B; }
+  div.section-7 .yt-L i {
+    padding: 5px 10px;
+    background: #7B7B7B; }
 
-.fb-L i {
-  padding: 5px 10px;
-  background: #4F4F4F; }
-
-.wifi-L i {
-  padding: 5px;
-  background: #AEAEAE; }
-
-.twitter-L i {
-  padding: 5px;
-  background: #7B7B7B; }
-
-.yt-L i {
-  padding: 5px 10px;
-  background: #7B7B7B; }
+p.last-paragraph {
+  color: #5A5A5A;
+  text-align: justify;
+  line-height: 1.5; }
 
 /*# sourceMappingURL=styles.css.map */
