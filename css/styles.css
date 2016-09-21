@@ -5886,7 +5886,7 @@ div.section-3 {
   height: 350px; }
   div.section-3 .S3 {
     padding: 0; }
-  div.section-3 img.main-logo {
+  div.section-3 img.section-3 {
     position: relative;
     margin-top: 60px; }
 
@@ -5897,18 +5897,27 @@ div.section-3 {
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0; }
+  left: 0;
+  opacity: 0.35; }
+
+/*WEIRD SECTION STYLING */
+.carousel {
+  margin-top: 75px; }
 
 /*SECTION 4 STYLING */
 div.section-4 {
   margin-top: 20px;
-  box-shadow: 0px 0px 0px #90908E; }
+  text-align: center; }
   div.section-4 .post {
     background: #FFF;
-    padding: 10px 20px 20px 20px; }
+    padding: 10px 20px 20px 20px;
+    text-align: center; }
+  div.section-4 h2 {
+    text-align: center; }
   div.section-4 h4 {
     color: #A2A2A2;
-    font-size: 12px; }
+    font-size: 12px;
+    text-align: left; }
   div.section-4 p {
     line-height: 2em;
     text-align: justify; }
@@ -5918,7 +5927,7 @@ div.section-4 {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 20px;
-    text-align: bottom; }
+    text-align: center; }
 
 /* SECTION 5 STYLING- the-skateboarders */
 div.the-skateboarders {
@@ -5997,5 +6006,11 @@ p.last-paragraph {
   color: #5A5A5A;
   text-align: justify;
   line-height: 1.5; }
+
+.btn {
+  color: #FFF;
+  text-transform: uppercase;
+  background: #B2382D;
+  padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
