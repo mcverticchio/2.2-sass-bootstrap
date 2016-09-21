@@ -5820,8 +5820,7 @@ Base Layout
 body {
   background: url("../images/bg.jpg") no-repeat;
   position: relative;
-  background-size: cover;
-  margin-left: 50px; }
+  background-size: cover; }
 
 body:before {
   content: "";
@@ -5834,22 +5833,89 @@ body:before {
 
 /*SOCIAL MEDIA */
 div.social-media {
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  position: relative; }
   div.social-media a {
-    border: 1px solid black;
     color: #FFF;
-    font-size: 20px; }
+    font-size: 25px;
+    padding: 20px;
+    vertical-align: middle; }
   div.social-media a.subscribe {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 10px;
+    border-right: 3px dotted #FFF; }
   div.social-media a.fb {
-    background: #445897; }
+    background: #445897;
+    margin-left: 10px; }
+  div.social-media a.wifi {
+    background: #CB8E31; }
+  div.social-media a.twitter {
+    background: #6A8DC7; }
+  div.social-media a.yt {
+    background: #B2382D; }
 
-div.nav-bar nav a {
-  border: 1px solid red;
-  font-size: 15px;
-  padding: 5px;
-  color: #FFF;
-  text-transform: uppercase; }
+/*SECTION 2 STYLING  */
+div.nav-bar {
+  margin-bottom: 20px;
+  margin-top: 40px; }
+  div.nav-bar a {
+    font-size: 13px;
+    padding: 10px;
+    color: #FFF;
+    background: #B2382D;
+    text-transform: uppercase;
+    width: 24%;
+    margin-left: 5px; }
+
+/*SECTION 3 STYLING */
+div.section-3 {
+  border: 5px solid #FFF;
+  padding: 0px; }
+  div.section-3 .S3 {
+    padding: 0; }
+  div.section-3 img.camera-guy {
+    margin-top: 5px;
+    position: relative;
+    width: 100%; }
+  div.section-3 img.main-logo {
+    position: absolute;
+    top: 250px; }
+
+div.section-3::before {
+  content: "";
+  background-image: url("../images/grid.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+/*SECTION 4 STYLING */
+div.section-4 {
+  background: #FFF;
+  opacity: 1;
+  margin-left: 5px;
+  margin-top: 10px; }
+  div.section-4 h4 {
+    color: #A2A2A2;
+    font-size: 12px; }
+  div.section-4 p {
+    line-height: 2em;
+    text-align: justify; }
+  div.section-4 span {
+    color: #B2382D;
+    text-transform: uppercase;
+    font-weight: 20px;
+    text-align: bottom; }
+
+div.section-4::before {
+  content: "";
+  background-image: url("../images/grid.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
 
 /* BUTTONS  */
 
