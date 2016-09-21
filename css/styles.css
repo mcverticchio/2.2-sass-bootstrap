@@ -5812,7 +5812,7 @@ button.close {
 Colors
 */
 /*
-Fonts
+Mixins
 */
 /*
 Base Layout
@@ -5846,42 +5846,49 @@ div.social-media {
   div.social-media a.fb {
     background: #445897;
     margin-left: 10px;
-    border-bottom: 2px solid #78797D; }
+    box-shadow: 0px 0px 0px #90908E; }
   div.social-media a.wifi {
     background: #CB8E31;
-    border-bottom: 2px solid #78797D; }
+    box-shadow: 0px 0px 0px #90908E; }
   div.social-media a.twitter {
     background: #6A8DC7;
-    border-bottom: 2px solid #78797D; }
+    box-shadow: 0px 0px 0px #90908E; }
   div.social-media a.yt {
     background: #B2382D;
-    border-bottom: 2px solid #78797D; }
+    box-shadow: 0px 0px 0px #90908E; }
 
 /*SECTION 2 STYLING  */
 div.nav-bar {
-  margin: 0px; }
+  margin-top: 30px; }
   div.nav-bar a {
     font-size: 13px;
     padding: 10px;
     color: #FFF;
     background: #B2382D;
     text-transform: uppercase;
-    border-bottom: 2px solid #78797D; }
+    text-align: center; }
+  div.nav-bar li {
+    padding-left: 0px;
+    box-shadow: 0px 0px 0px #90908E; }
+
+li.contact {
+  padding-right: 0px; }
 
 /*SECTION 3 STYLING */
 div.section-3 {
+  position: relative;
+  background: url("../images/top-image.png") no-repeat center -100px;
+  background-size: cover;
   border: 5px solid #FFF;
-  padding: 0px; }
+  box-shadow: 0px 0px 0px #90908E;
+  height: 350px; }
   div.section-3 .S3 {
     padding: 0; }
-  div.section-3 img.camera-guy {
-    position: relative;
-    width: 100%; }
   div.section-3 img.main-logo {
-    position: absolute;
-    top: 250px; }
+    position: relative;
+    margin-top: 60px; }
 
-div.section-3::before {
+.section-3::before {
   content: "";
   background-image: url("../images/grid.png");
   position: absolute;
@@ -5892,29 +5899,33 @@ div.section-3::before {
 
 /*SECTION 4 STYLING */
 div.section-4 {
+  margin-top: 20px;
+  box-shadow: 0px 0px 0px #90908E; }
+
+.sectA,
+.sectB,
+.sectC {
   background: #FFF;
-  margin-left: 10px;
-  margin-top: 10px; }
-  div.section-4 .sectA h4 {
+  box-shadow: 0px 0px 0px #90908E; }
+  .sectA h4,
+  .sectB h4,
+  .sectC h4 {
     color: #A2A2A2;
     font-size: 12px; }
-  div.section-4 .sectA p {
+  .sectA p,
+  .sectB p,
+  .sectC p {
     line-height: 2em;
     text-align: justify; }
-  div.section-4 .sectA span {
+  .sectA span,
+  .sectB span,
+  .sectC span {
     color: #B2382D;
+    font-weight: 600;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 20px;
     text-align: bottom; }
-
-div.section-4::before {
-  content: "";
-  background-image: url("../images/grid.png");
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0; }
 
 /* SECTION 5 STYLING- the-skateboarders */
 div.the-skateboarders {
@@ -5948,6 +5959,38 @@ div.the-skateboarders {
 
 /* STYLING FOR SECTION 6 */
 div.section-6 {
-  position: inline; }
+  position: inline;
+  background: #FFF;
+  margin-left: 50px;
+  padding: 12px;
+  padding-left: 16px;
+  width: 1170px;
+  margin-top: 30px; }
+  div.section-6 a {
+    margin-right: 48px;
+    background: #FFF; }
+
+/* SECTION 7 STYLING */
+div.section-7 {
+  background: #FFF; }
+  div.section-7 a {
+    color: #C1C1C1;
+    font-size: 30px; }
+
+.fb-L i {
+  padding: 5px 10px;
+  background: #4F4F4F; }
+
+.wifi-L i {
+  padding: 5px;
+  background: #AEAEAE; }
+
+.twitter-L i {
+  padding: 5px;
+  background: #7B7B7B; }
+
+.yt-L i {
+  padding: 5px 10px;
+  background: #7B7B7B; }
 
 /*# sourceMappingURL=styles.css.map */
