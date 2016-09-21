@@ -5833,7 +5833,6 @@ body:before {
 
 /*SOCIAL MEDIA */
 div.social-media {
-  margin-bottom: 30px;
   position: relative; }
   div.social-media a {
     color: #FFF;
@@ -5860,15 +5859,13 @@ div.social-media {
 
 /*SECTION 2 STYLING  */
 div.nav-bar {
-  margin: 40px 0 30px 33px; }
+  margin: 0px; }
   div.nav-bar a {
     font-size: 13px;
     padding: 10px;
     color: #FFF;
     background: #B2382D;
     text-transform: uppercase;
-    width: 24%;
-    margin-left: 5px;
     border-bottom: 2px solid #78797D; }
 
 /*SECTION 3 STYLING */
@@ -5878,7 +5875,6 @@ div.section-3 {
   div.section-3 .S3 {
     padding: 0; }
   div.section-3 img.camera-guy {
-    margin-top: 5px;
     position: relative;
     width: 100%; }
   div.section-3 img.main-logo {
@@ -5897,16 +5893,15 @@ div.section-3::before {
 /*SECTION 4 STYLING */
 div.section-4 {
   background: #FFF;
-  opacity: 1;
   margin-left: 10px;
   margin-top: 10px; }
-  div.section-4 h4 {
+  div.section-4 .sectA h4 {
     color: #A2A2A2;
     font-size: 12px; }
-  div.section-4 p {
+  div.section-4 .sectA p {
     line-height: 2em;
     text-align: justify; }
-  div.section-4 span {
+  div.section-4 .sectA span {
     color: #B2382D;
     text-transform: uppercase;
     font-weight: 20px;
