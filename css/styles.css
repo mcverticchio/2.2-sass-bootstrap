@@ -5846,18 +5846,21 @@ div.social-media {
     border-right: 3px dotted #FFF; }
   div.social-media a.fb {
     background: #445897;
-    margin-left: 10px; }
+    margin-left: 10px;
+    border-bottom: 2px solid #78797D; }
   div.social-media a.wifi {
-    background: #CB8E31; }
+    background: #CB8E31;
+    border-bottom: 2px solid #78797D; }
   div.social-media a.twitter {
-    background: #6A8DC7; }
+    background: #6A8DC7;
+    border-bottom: 2px solid #78797D; }
   div.social-media a.yt {
-    background: #B2382D; }
+    background: #B2382D;
+    border-bottom: 2px solid #78797D; }
 
 /*SECTION 2 STYLING  */
 div.nav-bar {
-  margin-bottom: 20px;
-  margin-top: 40px; }
+  margin: 40px 0 30px 33px; }
   div.nav-bar a {
     font-size: 13px;
     padding: 10px;
@@ -5865,7 +5868,8 @@ div.nav-bar {
     background: #B2382D;
     text-transform: uppercase;
     width: 24%;
-    margin-left: 5px; }
+    margin-left: 5px;
+    border-bottom: 2px solid #78797D; }
 
 /*SECTION 3 STYLING */
 div.section-3 {
@@ -5894,7 +5898,7 @@ div.section-3::before {
 div.section-4 {
   background: #FFF;
   opacity: 1;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: 10px; }
   div.section-4 h4 {
     color: #A2A2A2;
@@ -5917,6 +5921,38 @@ div.section-4::before {
   right: 0;
   left: 0; }
 
-/* BUTTONS  */
+/* SECTION 5 STYLING- the-skateboarders */
+div.the-skateboarders {
+  position: relative;
+  margin-top: 20px; }
+  div.the-skateboarders .arrow {
+    text-transform: uppercase;
+    color: #FFF;
+    position: absolute;
+    down: 30px;
+    background: #B2382D;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle; }
+  div.the-skateboarders .SB-1 {
+    background: url("..images/sk8er-1.png");
+    height: 100px;
+    border: 5px solid #FFF; }
+  div.the-skateboarders .SB-2 {
+    background: url("..images/sk8er-2.png");
+    border: 5px solid #FFF;
+    height: 100px; }
+  div.the-skateboarders .SB-3 {
+    background: url("..images/sk8er-3.png");
+    border: 5px solid #FFF;
+    height: 100px; }
+  div.the-skateboarders .SB-4 {
+    background: url("..images/sk8er-4.png");
+    border: 5px solid #FFF;
+    height: 200px; }
+
+/* STYLING FOR SECTION 6 */
+div.section-6 {
+  position: inline; }
 
 /*# sourceMappingURL=styles.css.map */
