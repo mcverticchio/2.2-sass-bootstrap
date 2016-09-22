@@ -5834,29 +5834,34 @@ body:before {
 
 /*SOCIAL MEDIA */
 div.social-media {
-  position: relative; }
+  position: relative;
+  margin-left: 5px; }
   div.social-media a {
     color: #FFF;
     font-size: 25px;
-    padding: 20px;
-    vertical-align: middle; }
+    padding: 15px;
+    vertical-align: bottom;
+    position: relative; }
   div.social-media a.subscribe {
     text-transform: uppercase;
     font-size: 10px;
-    border-right: 3px dotted #FFF; }
+    border-right: 3px dotted #FFF;
+    vertical-align: middle;
+    padding: 8px;
+    padding-right: 60px; }
   div.social-media a.fb {
     background: #445897;
     margin-left: 10px;
-    box-shadow: 0px 0px 0px #90908E; }
+    box-shadow: 0px 3px 0px #90908E; }
   div.social-media a.wifi {
     background: #CB8E31;
-    box-shadow: 0px 0px 0px #90908E; }
+    box-shadow: 0px 3px 0px #90908E; }
   div.social-media a.twitter {
     background: #6A8DC7;
-    box-shadow: 0px 0px 0px #90908E; }
+    box-shadow: 0px 3px 0px #90908E; }
   div.social-media a.yt {
     background: #B2382D;
-    box-shadow: 0px 0px 0px #90908E; }
+    box-shadow: 0px 3px 0px #90908E; }
 
 /*SECTION 2 STYLING  */
 div.nav-bar {
@@ -5869,26 +5874,24 @@ div.nav-bar {
     color: #FFF;
     background: #B2382D;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 0px 3px 0px #90908E; }
   div.nav-bar li {
-    padding-left: 0px;
-    box-shadow: 0px 0px 0px #90908E; }
-
-li.contact {
-  padding-right: 0px; }
+    padding-left: 0px; }
 
 /*SECTION 3 STYLING */
 div.section-3 {
+  position: relative;
   background: url("../images/top-image.png") no-repeat center -100px;
   background-size: cover;
   border: 5px solid #FFF;
-  box-shadow: 0px 0px 0px #90908E;
-  height: 350px; }
+  height: 350px;
+  box-shadow: 0px 3px 0px #90908E; }
   div.section-3 .S3 {
     padding: 0; }
-  div.section-3 img.section-3 {
+  div.section-3 img.main-logo {
     position: relative;
-    margin-top: 60px; }
+    margin-top: 50px; }
 
 .section-3::before {
   content: "";
@@ -5911,7 +5914,8 @@ div.section-4 {
   div.section-4 .post {
     background: #FFF;
     padding: 10px 20px 20px 20px;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 0px 3px 0px #90908E; }
   div.section-4 h2 {
     text-align: center; }
   div.section-4 h4 {
@@ -5943,32 +5947,37 @@ div.the-skateboarders {
     color: #FFF;
     position: absolute;
     down: 30px;
-    background: #B2382D; }
+    background: #B2382D;
+    box-shadow: 0px 3px 0px #90908E; }
   div.the-skateboarders .SB1 {
     background: url("../images/sk8er-4.png") no-repeat;
     background-position: 100%;
     border: 5px solid #FFF;
     padding-top: 150px;
     margin-bottom: 10px;
-    color: #FFF; }
+    color: #FFF;
+    box-shadow: 0px 3px 0px #90908E; }
   div.the-skateboarders .SB2 {
     background: url("../images/sk8er-3.png") no-repeat;
     background-size: 100%;
     border: 5px solid #FFF;
     padding-top: 150px;
     margin-bottom: 10px;
-    color: #FFF; }
+    color: #FFF;
+    box-shadow: 0px 3px 0px #90908E; }
   div.the-skateboarders .SB3 {
     background: url("../images/sk8er-1.png") no-repeat;
     background-size: 100%;
     border: 5px solid #FFF;
     padding: 100px;
-    color: #FFF; }
+    color: #FFF;
+    box-shadow: 0px 3px 0px #90908E; }
   div.the-skateboarders .SB4 {
     background: url("../images/sk8er-2.png") no-repeat 100%;
     border: 5px solid #FFF;
     color: #FFF;
-    padding-top: 412px; }
+    padding-top: 412px;
+    box-shadow: 0px 3px 0px #90908E; }
 
 /* STYLING FOR SECTION 6 */
 div.section-6 {
@@ -5977,7 +5986,8 @@ div.section-6 {
   padding: 12px;
   padding-left: 50px;
   width: 1153px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  box-shadow: 0px 3px 0px #90908E; }
   div.section-6 a {
     margin-right: 42px;
     background: #FFF; }
@@ -5991,7 +6001,8 @@ div.section-7 {
   margin-bottom: 20px;
   padding-top: 10px;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  box-shadow: 0px 3px 0px #90908E; }
   div.section-7 .lastsection {
     padding: 10px;
     padding-right: 50px;
