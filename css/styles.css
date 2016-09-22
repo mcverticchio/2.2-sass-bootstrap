@@ -5985,7 +5985,17 @@ div.section-6 {
 /* SECTION 7 STYLING */
 div.section-7 {
   background: #FFF;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 55px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  div.section-7 .lastsection {
+    padding: 10px;
+    padding-right: 50px;
+    line-spacing: 1.5; }
   div.section-7 a {
     color: #C1C1C1;
     font-size: 30px; }
@@ -6007,10 +6017,19 @@ p.last-paragraph {
   text-align: justify;
   line-height: 1.5; }
 
-.btn {
-  color: #FFF;
-  text-transform: uppercase;
-  background: #B2382D;
-  padding: 5px; }
+.inputstuff {
+  padding-top: 30px;
+  text-align: center; }
+  .inputstuff .btn {
+    color: #FFF;
+    text-transform: uppercase;
+    background: #B2382D;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */
