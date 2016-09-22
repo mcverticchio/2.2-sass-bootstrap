@@ -6006,6 +6006,7 @@ div.the-skateboarders {
 
 /* STYLING FOR SECTION 6 */
 div.section-6 {
+  position: inline;
   background: #FFF;
   padding: 12px;
   margin-top: 30px;
