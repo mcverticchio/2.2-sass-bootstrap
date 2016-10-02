@@ -1,0 +1,334 @@
+/* Bootstrap variables */
+$grid-gutter-width: 10px !default;
+
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*
+Colors
+*/
+$blue: #445897;
+$red: #B2382D;
+$yellow: #CB8E31;
+$lightblue: #6A8DC7;
+$white: #FFF;
+$gray: #A2A2A2;
+$grey: #78797D;
+$shadow: #90908E;
+$darkgray: #7B7B7B;
+
+/*
+Mixins
+*/
+@mixin shadow() {
+  box-shadow: 0px 3px 0px $shadow;
+
+}
+
+/*
+Base Layout
+*/
+
+body {
+  background: url("../images/bg.jpg") no-repeat;
+  position:relative;
+  background-size: cover;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/*SOCIAL MEDIA */
+div.social-media{
+  position:relative;
+  margin-left: 0px;
+  padding-left: 93px;
+  a {
+    font-size:25px;
+    padding:15px;
+    vertical-align: bottom;
+    position: relative;
+    color: $white;
+    }
+  a.subscribe {
+    text-transform: uppercase;
+    font-size: 10px;
+    border-right: 3px dotted $white;
+    vertical-align: middle;
+    padding: 8px;
+    padding-right: 60px;
+    color: $white;
+    }
+  a.fb {
+    background:$blue;
+    margin-left: 10px;
+    @include shadow();
+  }
+  a.wifi {
+    background:$yellow;
+    @include shadow();
+  }
+  a.twitter {
+    background:$lightblue;
+    @include shadow();
+  }
+  a.yt {
+    background:$red;
+    @include shadow();
+  }
+}
+
+
+/*SECTION 2 STYLING  */
+
+div.nav-bar {
+  margin-top: 30px;
+  margin-left: 0px;
+  ul{
+    padding: 0;
+  }
+   a{
+    font-size: 13px;
+    padding: 10px;
+    color: $white;
+    background: $red;
+    text-transform: uppercase;
+    text-align: center;
+    @include shadow();
+  }
+  li {
+    padding-left: 0px;
+  }
+}
+
+
+/*SECTION 3 STYLING */
+
+div.section-3 {
+  position: relative;
+  background: url('../images/top-image.png') no-repeat center -100px;
+  background-size: cover;
+  border: 5px solid $white;
+  height: 350px;
+  padding: 0px;
+  @include shadow();
+  .S3{
+  padding: 0;
+  }
+  img.main-logo{
+    position:relative;
+    margin-top: 50px;
+  }
+}
+.section-3::before{
+ content: "";
+ background-image: url('../images/grid.png');
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ opacity: 0.35;
+}
+
+
+/*Carousel SECTION STYLING */
+.carousel {
+  margin-top: 75px;
+}
+
+/*SECTION 4 STYLING */
+div.section-4 {
+  margin-top: 20px;
+  text-align: center;
+    .post {
+      background: $white;
+      padding: 10px 20px 20px 20px;
+      text-align: center;
+      @include shadow();
+    }
+    h2 {
+      text-align: center;
+    }
+    h4 {
+    color:$gray;
+    font-size: 12px;
+    text-align: left;
+    }
+    p {
+    line-height: 2em;
+    text-align: justify;
+    }
+  }
+  .post a {
+    color: $red;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    text-align: center;
+    }
+
+
+
+/* SECTION 5 STYLING- the-skateboarders */
+
+div.the-skateboarders {
+  position: relative;
+  margin-top: 40px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  .SB {
+    color: $white;
+    position: absolute;
+    down: 30px;
+    background: $red;
+    @include shadow();
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 50px;
+    left:-384px;
+    bottom: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+  .SB1 {
+    background: url('../images/sk8er-4.png') no-repeat;
+    background-position: 100%;
+    border: 5px solid $white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom:10px;
+    color: $white;
+    @include shadow();
+  }
+  .SB2 {
+    background: url('../images/sk8er-3.png') no-repeat;
+    background-size: 100%;
+    border: 5px solid $white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 10px;
+    color: $white;
+    @include shadow();
+  }
+  .SB3 {
+    background: url('../images/sk8er-1.png') no-repeat;
+    background-position: 100px -50px;
+    border: 5px solid $white;
+    padding: 100px;
+    color: $white;
+    @include shadow();
+  }
+  .SB4 {
+    background: url('../images/sk8er-2.png') no-repeat 100%;
+    border: 5px solid $white;
+    color: $white;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    @include shadow();
+  }
+}
+
+.SB::after {
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    left:100%;
+    top:0;
+    border:65px solid transparent;
+    border-left: 60px solid $red;
+
+}
+
+/* STYLING FOR SECTION 6 */
+
+div.section-6 {
+  position: inline;
+  background: #FFF;
+  padding: 12px;
+  margin-top: 30px;
+  @include shadow();
+
+    a {
+      margin-right:45px;
+      background: #FFF;
+    }
+  }
+
+
+  /* SECTION 7 STYLING */
+
+  div.section-7 {
+    background: $white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    @include shadow();
+    .lastsection {
+      padding: 10px;
+      padding-right: 50px;
+      line-spacing: 1.5;
+    }
+    a {
+      color: #C1C1C1;
+      font-size: 30px;
+    }
+    .fb-L i{
+      padding: 5px 10px;
+      background: #4F4F4F;
+    }
+    .wifi-L i{
+      padding: 5px;
+      background: #AEAEAE;
+    }
+    .twitter-L i{
+      padding: 5px;
+      background: #7B7B7B;
+    }
+    .yt-L i{
+      padding: 5px 10px;
+      background: #7B7B7B;
+    }
+}
+    p.last-paragraph {
+  color: #5A5A5A;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.inputstuff {
+  padding-top: 30px;
+  text-align: center;
+    .btn{
+        color: $white;
+        text-transform: uppercase;
+        background: $red;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 100px;
+        padding-left: 100px;
+        text-align: center;
+        float:right;
+      }
+}

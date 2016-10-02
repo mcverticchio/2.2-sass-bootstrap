@@ -5835,7 +5835,8 @@ body:before {
 /*SOCIAL MEDIA */
 div.social-media {
   position: relative;
-  margin-left: 5px; }
+  margin-left: 0px;
+  padding-left: 93px; }
   div.social-media a {
     font-size: 25px;
     padding: 15px;
@@ -5866,7 +5867,8 @@ div.social-media {
 
 /*SECTION 2 STYLING  */
 div.nav-bar {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-left: 0px; }
   div.nav-bar ul {
     padding: 0; }
   div.nav-bar a {
@@ -5905,7 +5907,7 @@ div.section-3 {
   left: 0;
   opacity: 0.35; }
 
-/*WEIRD SECTION STYLING */
+/*Carousel SECTION STYLING */
 .carousel {
   margin-top: 75px; }
 
