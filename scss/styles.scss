@@ -121,9 +121,13 @@ div.nav-bar {
 
 div.section-3 {
   position: relative;
-  background: url('../images/top-image.png') no-repeat center -100px;
-  background-size: cover;
-  border: 5px solid $white;
+  background: {
+    image: url('../images/top-image.png');
+    size: 135%;
+    position: 30% 26%;
+    repeat: no-repeat;
+  }
+  border: 7px solid $white;
   height: 350px;
   padding: 0px;
   @include shadow();
@@ -134,8 +138,12 @@ div.section-3 {
   padding: 0;
   }
   img.main-logo{
-    position:relative;
+    position:absolute;
     margin-top: 50px;
+    @media (max-width: 700px){
+      width: 40%;
+      margin-top: 10px;
+    }
   }
 }
 .section-3::before{
@@ -217,7 +225,7 @@ div.the-skateboarders {
     padding-right: 30px;
 
   }
-  .SB1 {
+  .lance {
     background: url('../images/sk8er-4.png') no-repeat;
     background-position: 100%;
     border: 5px solid $white;
@@ -226,8 +234,11 @@ div.the-skateboarders {
     margin-bottom:10px;
     color: $white;
     @include shadow();
+    @media (max-width: 900px){
+      height: 20vw;
+    }
   }
-  .SB2 {
+  .rodney {
     background: url('../images/sk8er-3.png') no-repeat;
     background-size: 100%;
     border: 5px solid $white;
@@ -236,24 +247,40 @@ div.the-skateboarders {
     margin-bottom: 10px;
     color: $white;
     @include shadow();
+    @media (max-width: 900px){
+      height: 20vw;
+    }
   }
-  .SB3 {
+  .steve {
     background: url('../images/sk8er-1.png') no-repeat;
     background-position: 100px -50px;
     border: 5px solid $white;
     padding: 100px;
     color: $white;
     @include shadow();
+    @media (max-width: 900px){
+      height: 20vw;
+    }
   }
-  .SB4 {
+  .tommy {
     background: url('../images/sk8er-2.png') no-repeat 100%;
     border: 5px solid $white;
     color: $white;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    // padding-top: 180px;
+    // padding-bottom: 180px;
+    position: relative;
+    height: 470px;
     @include shadow();
+    @media (max-width: 900px){
+      height: 20vw;
+    }
+    span {
+      position:absolute;
+      top: 170px;
+      left: 0px;
+    }
   }
-}
+};
 
 .SB::after {
     content:"";
@@ -275,13 +302,22 @@ div.section-6 {
   padding: 12px;
   margin-top: 30px;
   @include shadow();
-
+  @media (max-width: 900px){
+    margin-top: 20px;
+  }
     a {
       margin-right:45px;
       background: #FFF;
-    }
-  }
-
+      }
+    img {
+      @media (max-width: 700px){
+        transform: rotate(-90deg);
+        display: block;
+        margin-left: 45%;
+      }
+        }
+      };
+//
 
   /* SECTION 7 STYLING */
 
