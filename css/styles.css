@@ -5836,10 +5836,12 @@ body:before {
 div.social-media {
   position: relative;
   margin-left: 0px;
-  padding-left: 93px; }
+  float: right;
+  width: 350px;
+  text-align: right; }
   div.social-media a {
     font-size: 25px;
-    padding: 15px;
+    padding: 8px;
     vertical-align: bottom;
     position: relative;
     color: #FFF; }
@@ -5891,6 +5893,9 @@ div.section-3 {
   height: 350px;
   padding: 0px;
   box-shadow: 0px 3px 0px #90908E; }
+  @media (max-width: 1200px) {
+    div.section-3 {
+      margin-top: 10px; } }
   div.section-3 .S3 {
     padding: 0; }
   div.section-3 img.main-logo {
@@ -6036,15 +6041,27 @@ div.section-7 {
   div.section-7 .fb-L i {
     padding: 5px 10px;
     background: #4F4F4F; }
+  div.section-7 .fb-L i:hover {
+    background: #445897;
+    color: #FFF; }
   div.section-7 .wifi-L i {
     padding: 5px;
     background: #AEAEAE; }
+  div.section-7 .wifi-L i:hover {
+    background: #CB8E31;
+    color: #FFF; }
   div.section-7 .twitter-L i {
     padding: 5px;
     background: #7B7B7B; }
+  div.section-7 .twitter-L i:hover {
+    background: #6A8DC7;
+    color: #FFF; }
   div.section-7 .yt-L i {
     padding: 5px 10px;
     background: #7B7B7B; }
+  div.section-7 .yt-L i:hover {
+    background: #B2382D;
+    color: #FFF; }
 
 p.last-paragraph {
   color: #5A5A5A;

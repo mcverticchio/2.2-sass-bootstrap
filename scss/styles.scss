@@ -51,13 +51,19 @@ body:before {
 div.social-media{
   position:relative;
   margin-left: 0px;
-  padding-left: 93px;
+  float:right;
+  width: 350px;
+  text-align: right;
+  // @media (max-width: 1200px){
+  //   line-height: 45px;
+  // }
   a {
     font-size:25px;
-    padding:15px;
+    padding:8px;
     vertical-align: bottom;
     position: relative;
     color: $white;
+
     }
   a.subscribe {
     text-transform: uppercase;
@@ -121,6 +127,9 @@ div.section-3 {
   height: 350px;
   padding: 0px;
   @include shadow();
+  @media (max-width: 1200px){
+    margin-top: 10px;
+  }
   .S3{
   padding: 0;
   }
@@ -297,17 +306,33 @@ div.section-6 {
       padding: 5px 10px;
       background: #4F4F4F;
     }
+    .fb-L i:hover{
+      background: $blue;
+      color:$white;
+    }
     .wifi-L i{
       padding: 5px;
       background: #AEAEAE;
+    }
+    .wifi-L i:hover {
+      background: $yellow;
+      color:$white;
     }
     .twitter-L i{
       padding: 5px;
       background: #7B7B7B;
     }
+    .twitter-L i:hover{
+      background:$lightblue;
+      color: $white;
+    }
     .yt-L i{
       padding: 5px 10px;
       background: #7B7B7B;
+    }
+    .yt-L i:hover {
+      background: $red;
+      color: $white;
     }
 }
     p.last-paragraph {
