@@ -5837,27 +5837,33 @@ div.social-media {
   position: relative;
   margin-left: 0px;
   float: right;
-  width: 350px;
-  text-align: right; }
+  width: 450px;
+  text-align: right;
+  margin-top: 10px; }
+  @media (min-width: 2200px) {
+    div.social-media {
+      width: 500px; } }
   div.social-media a {
-    font-size: 25px;
+    font-size: 2vw;
     padding: 8px;
     vertical-align: bottom;
     position: relative;
-    color: #FFF; }
+    color: #FFF;
+    padding-top: 3px; }
+    @media (max-width: 850px) {
+      div.social-media a {
+        font-size: 2.5vw; } }
   div.social-media a.subscribe {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: .9vw;
     border-right: 3px dotted #FFF;
     vertical-align: middle;
     padding: 8px;
-    padding-right: 60px;
+    padding-right: 30px;
     color: #FFF; }
   div.social-media a.subscribe:hover {
-    font-size: 12px;
     font-weight: bold;
-    text-decoration: none;
-    transition: font-size 0.2s ease; }
+    text-decoration: none; }
   div.social-media a.fb {
     background: #445897;
     margin-left: 10px;
@@ -5880,28 +5886,28 @@ div.social-media {
 div.nav-bar {
   margin-top: 30px;
   margin-left: 0px; }
-  @media (max-width: 992px) {
-    div.nav-bar {
-      font-size: 10px;
-      margin-left: 25px; } }
-  @media (max-width: 600px) {
-    div.nav-bar {
-      margin-right: 20px; } }
   div.nav-bar ul {
-    padding: 0; }
+    padding: 0;
+    list-style-type: none; }
   div.nav-bar a {
-    font-size: 13px;
+    font-size: 1vw;
     padding: 10px;
     color: #FFF;
     background: #B2382D;
     text-transform: uppercase;
     text-align: center;
-    box-shadow: 0px 3px 0px #90908E; }
-  div.nav-bar a:hover {
-    font-size: 15px;
-    font-weight: bold;
+    box-shadow: 0px 3px 0px #90908E;
     text-decoration: none;
-    transition: font-size 0.2s ease; }
+    display: block; }
+    @media (max-width: 1000px) {
+      div.nav-bar a {
+        font-size: 1.2vw; } }
+    @media (max-width: 850px) {
+      div.nav-bar a {
+        font-size: 1.5vw; } }
+  div.nav-bar a:hover {
+    font-weight: bold;
+    text-decoration: none; }
   div.nav-bar li {
     padding-left: 0px; }
 
@@ -5916,7 +5922,7 @@ div.section-3 {
   height: 30vw;
   padding: 0px;
   box-shadow: 0px 3px 0px #90908E; }
-  @media (max-width: 1000px) {
+  @media (max-width: 991px) {
     div.section-3 {
       margin-top: 15px; } }
   div.section-3 .S3 {
@@ -6088,8 +6094,11 @@ div.section-6 {
         transform: rotate(-90deg);
         display: block;
         margin-left: 40%;
-        height: 400px;
-        margin-top: -160px; } }
+        height: 50vw;
+        margin-top: -100px; } }
+    @media (max-width: 600px) {
+      div.section-6 img {
+        margin-top: -50px; } }
 
 /* SECTION 7 STYLING */
 div.section-7 {
